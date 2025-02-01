@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #fffff0;
     color: #333;
 }
 
 header {
-    background-color: #6a1b9a;
+    background-color: #333333;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -18,7 +18,7 @@ main {
 }
 
 #add-task {
-    background-color: #ec407a;
+    background-color: #135f83;
     color: white;
     padding: 1rem;
     border-radius: 5px;
@@ -44,7 +44,7 @@ main {
 }
 
 #add-task button {
-    background-color: #ab47bc;
+    background-color: #9c001a;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -106,4 +106,9 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.task-completed {
+    text-decoration: line-through;
+    color: #888;
 }
